@@ -1,0 +1,11 @@
+grey-#000000
+black-#626262
+1. header section 
+
+
+minimo-header-section
+https://rokibulhasan001.github.io/minimo/
+
+
+font
+font-family: "Ubuntu", sans-serif;

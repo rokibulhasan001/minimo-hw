@@ -1,0 +1,138 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*comon start*/
+body{
+	margin: 0;
+	 font-family: "Playfair Display", serif;
+	 font-size: 16px;
+	 font-weight: 400;
+	 color: #626262;
+}
+/*comon end*/
+/*header section start*/
+header{
+	padding: 40px 0;
+
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	float: left;
+	margin-top: 10px;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 60%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	color: #626262;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 55px;
+	border-bottom: 1px solid transparent;
+	text-transform: uppercase;
+	transition: .33s linear;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+
+}
+
+/*header dection end*/
+/*baner dection start*/
+.baner{}
+.b-img{}
+.b-img img{
+	width: 100%;
+}
+
+/*baner section end*/
+/*gataway section start*/
+.gataway{
+	padding: 100px 0;
+}
+.container2{
+	width: 70%;
+	margin: 0 auto;
+}
+.g-content{}
+.light{
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	color: #b4ad9e;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin: 0;
+}
+.title{
+	font-size: 30px;
+	font-weight: 500px;
+	color: #626262;
+	margin: 20px 0 30px;
+
+}
+.text{
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400px;
+	color: #626262;
+	line-height: 24px;
+
+
+
+}
+.g-link{
+	margin-top: 40px;
+	text-decoration: none;
+	color: #626262;
+	display: inline-block;
+}
+/*gataway section end*/
+/*blog section start*/
+.blog{
+	padding: 0 0 100px;
+}
+.bl-content{
+	overflow: hidden;
+}
+.bl-single{
+	width: 47%;
+	float: left;
+}
+.bl-single:nth-child(even){
+	margin-left: 79.9px;
+}
+.bl-single:nth-child(3){
+	margin-top: 130px;
+}
+.bl-single:nth-child(4){
+	margin-top: 130px;
+}
+
+.bl-img{
+	margin-bottom: 30px;
+}
+.bl-img img{
+	width: 100%;
+}
+
+/*blog section end*/
